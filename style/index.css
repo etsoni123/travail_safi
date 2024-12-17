@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+}
+header{
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    display: flex;
+    background-color: #93d6d0;
+}
+
+.logo
+{
+    font-size: 25p;
+}
+
+.logo span
+{
+    color: #f4f7f6; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header .menu a 
+{
+    position: relative;
+    margin: 0 10px;
+    text-decoration: 0;
+    color: #f5f0f0;
+    transition: 0.5s;
+}
+
+#home
+{
+    width: 100%;
+    height: calc(100vh - 55px);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../image/p.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 5%;
+    padding-bottom: 50px; 
+}
+#home h3
+{
+    color: rgb(27, 196, 202);
+    text-align: center;
+    font-family: Arial, Helvetica, serif;
+    font-size: x-large;
+   
+}
+
+.etiquette
+{
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 50px;
+    opacity: 0.5;
+    animation: anime 1s linear;
+
+   
+}
+/* Code pour animer */
+@keyframes anime{
+    from{
+        transform: translateX(-600px);
+    }
+}
+
+
+.etiquette h3
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.etiquette p 
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.etiquette a 
+{
+    text-decoration: 0;
+    border: 2px solid #93d6d0;
+    color: #93d6d0;
+    border-radius: 6px;
+    padding: 5px 20px;
+    margin-top: 5px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+
+.etiquette a:hover
+{
+    background-color: #93d6d0;
+    color: #fff;
+    letter-spacing: 1px;
+}
